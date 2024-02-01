@@ -9,9 +9,13 @@ namespace pdfToExcel
     public partial class Form1 : Form
     {
 
+        string userName = Environment.UserName;
+        string path;
         public Form1()
         {
             InitializeComponent();
+            path = @"C:\Users\" + userName + @"\Desktop\fatura.pdf";
+
         }
 
 
@@ -23,7 +27,7 @@ namespace pdfToExcel
         public void pdfToExcelDef()
         {
             PdfDocument document = new PdfDocument();
-            document.LoadFromFile(@"C:\Users\DmR\Desktop\fatura.pdf");
+            document.LoadFromFile(path);
             //document.SaveToFile("PDFToExcel.xlsx", FileFormat.XLSX);
         }
 
@@ -36,7 +40,7 @@ namespace pdfToExcel
         {
 
             PdfDocument pdf = new PdfDocument();
-            pdf.LoadFromFile(@"C:\\Users\\DmR\\Desktop\\fatura.pdf");
+            pdf.LoadFromFile(path);
 
             PdfTableExtractor extractor = new PdfTableExtractor(pdf);
 
@@ -79,7 +83,7 @@ namespace pdfToExcel
         public void pdfToExcelCustomDef()
         {
             PdfDocument pdf = new PdfDocument();
-            pdf.LoadFromFile(@"C:\\Users\\DmR\\Desktop\\fatura.pdf");
+            pdf.LoadFromFile(path);
 
             PdfTableExtractor extractor = new PdfTableExtractor(pdf);
 
@@ -108,6 +112,7 @@ namespace pdfToExcel
             double result = x * 0.02;
             return result;
         }
+        
 
         private void button3_Click(object sender, EventArgs e)
         {

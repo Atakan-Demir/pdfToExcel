@@ -814,19 +814,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\DmR\\.nuget\\packages\\": {}
+    "C:\\Users\\demir\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DmR\\Documents\\GitHub\\pdfToExcel\\pdfToExcel\\pdfToExcel.csproj",
+      "projectUniqueName": "C:\\Users\\demir\\Documents\\GitHub\\pdfToExcel\\pdfToExcel\\pdfToExcel.csproj",
       "projectName": "pdfToExcel",
-      "projectPath": "C:\\Users\\DmR\\Documents\\GitHub\\pdfToExcel\\pdfToExcel\\pdfToExcel.csproj",
-      "packagesPath": "C:\\Users\\DmR\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\DmR\\Documents\\GitHub\\pdfToExcel\\pdfToExcel\\obj\\",
+      "projectPath": "C:\\Users\\demir\\Documents\\GitHub\\pdfToExcel\\pdfToExcel\\pdfToExcel.csproj",
+      "packagesPath": "C:\\Users\\demir\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\demir\\Documents\\GitHub\\pdfToExcel\\pdfToExcel\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\DmR\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\demir\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -876,7 +881,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }
