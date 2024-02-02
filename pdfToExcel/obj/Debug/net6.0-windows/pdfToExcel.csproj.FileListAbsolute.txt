@@ -57,3 +57,5 @@ C:\Users\demir\Documents\GitHub\pdfToExcel\pdfToExcel\obj\Debug\net6.0-windows\r
 C:\Users\demir\Documents\GitHub\pdfToExcel\pdfToExcel\obj\Debug\net6.0-windows\pdfToExcel.pdb
 C:\Users\demir\Documents\GitHub\pdfToExcel\pdfToExcel\obj\Debug\net6.0-windows\pdfToExcel.genruntimeconfig.cache
 C:\Users\demir\Documents\GitHub\pdfToExcel\pdfToExcel\obj\Debug\net6.0-windows\ref\pdfToExcel.dll
+C:\Users\demir\Documents\GitHub\pdfToExcel\pdfToExcel\bin\Debug\net6.0-windows\BouncyCastle.Crypto.dll
+C:\Users\demir\Documents\GitHub\pdfToExcel\pdfToExcel\bin\Debug\net6.0-windows\itextsharp.dll

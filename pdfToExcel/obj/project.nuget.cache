@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "TsCTmecvgL8/rCE/dLBpxiv3YDKI8fdbUVawm85OflVOE3rCGg4gl5pQ+cp0qw4B/6UFL2GyW6Xg0yvZNyaptA==",
+  "dgSpecHash": "EeC3EwCiH7gB77MsX1ICo7dMznT8PCEUJ7588QW+iLo4blrztf2ZaVwufx+I9u6J3bju5lzk8yllZe93P6RCGA==",
   "success": true,
   "projectFilePath": "C:\\Users\\demir\\Documents\\GitHub\\pdfToExcel\\pdfToExcel\\pdfToExcel.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\demir\\.nuget\\packages\\bouncycastle\\1.8.9\\bouncycastle.1.8.9.nupkg.sha512",
     "C:\\Users\\demir\\.nuget\\packages\\harfbuzzsharp\\2.6.1.5\\harfbuzzsharp.2.6.1.5.nupkg.sha512",
+    "C:\\Users\\demir\\.nuget\\packages\\itextsharp\\5.5.13.3\\itextsharp.5.5.13.3.nupkg.sha512",
     "C:\\Users\\demir\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
     "C:\\Users\\demir\\.nuget\\packages\\spire.doc\\11.11.8\\spire.doc.11.11.8.nupkg.sha512",
     "C:\\Users\\demir\\.nuget\\packages\\spire.office\\8.11.2\\spire.office.8.11.2.nupkg.sha512",
@@ -19,5 +21,26 @@
     "C:\\Users\\demir\\.nuget\\packages\\system.text.encoding.codepages\\6.0.0\\system.text.encoding.codepages.6.0.0.nupkg.sha512",
     "C:\\Users\\demir\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "'BouncyCastle 1.8.9' paketi, proje hedef çerçevesi 'net6.0-windows7.0' yerine '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' kullanılarak geri yüklendi. Bu paket projenizle tamamen uyumlu olmayabilir.",
+      "libraryId": "BouncyCastle",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "'iTextSharp 5.5.13.3' paketi, proje hedef çerçevesi 'net6.0-windows7.0' yerine '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' kullanılarak geri yüklendi. Bu paket projenizle tamamen uyumlu olmayabilir.",
+      "libraryId": "iTextSharp",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    }
+  ]
 }

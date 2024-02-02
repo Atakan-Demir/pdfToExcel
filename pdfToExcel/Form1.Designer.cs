@@ -37,11 +37,12 @@
             textBox2 = new TextBox();
             label3 = new Label();
             textBox3 = new TextBox();
+            richTextBox1 = new RichTextBox();
             SuspendLayout();
             // 
             // button1
             // 
-            button1.Location = new Point(93, 141);
+            button1.Location = new Point(83, 25);
             button1.Name = "button1";
             button1.Size = new Size(191, 105);
             button1.TabIndex = 0;
@@ -51,7 +52,7 @@
             // 
             // button2
             // 
-            button2.Location = new Point(290, 141);
+            button2.Location = new Point(280, 25);
             button2.Name = "button2";
             button2.Size = new Size(176, 105);
             button2.TabIndex = 1;
@@ -68,7 +69,7 @@
             // 
             // button3
             // 
-            button3.Location = new Point(472, 141);
+            button3.Location = new Point(462, 25);
             button3.Name = "button3";
             button3.Size = new Size(176, 105);
             button3.TabIndex = 3;
@@ -120,11 +121,20 @@
             textBox3.Size = new Size(231, 23);
             textBox3.TabIndex = 7;
             // 
+            // richTextBox1
+            // 
+            richTextBox1.Location = new Point(83, 179);
+            richTextBox1.Name = "richTextBox1";
+            richTextBox1.Size = new Size(555, 96);
+            richTextBox1.TabIndex = 9;
+            richTextBox1.Text = "";
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(richTextBox1);
             Controls.Add(label3);
             Controls.Add(textBox3);
             Controls.Add(label2);
@@ -151,5 +161,6 @@
         private TextBox textBox2;
         private Label label3;
         private TextBox textBox3;
+        private RichTextBox richTextBox1;
     }
 }
