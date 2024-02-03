@@ -38,6 +38,7 @@
             label3 = new Label();
             textBox3 = new TextBox();
             richTextBox1 = new RichTextBox();
+            folderBrowserDialog1 = new FolderBrowserDialog();
             SuspendLayout();
             // 
             // button1
@@ -46,7 +47,7 @@
             button1.Name = "button1";
             button1.Size = new Size(191, 105);
             button1.TabIndex = 0;
-            button1.Text = "pdf To excel";
+            button1.Text = "Faturaların Olduğu Klasörü seç";
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 
@@ -162,5 +163,6 @@
         private Label label3;
         private TextBox textBox3;
         private RichTextBox richTextBox1;
+        private FolderBrowserDialog folderBrowserDialog1;
     }
 }
