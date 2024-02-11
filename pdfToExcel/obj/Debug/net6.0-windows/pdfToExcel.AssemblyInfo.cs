@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("pdfToExcel")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2189e429b2480984c72c350307920b7bcd2f00b4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7a452f28eebaeb57bb723909ea26604df238c360")]
 [assembly: System.Reflection.AssemblyProductAttribute("pdfToExcel")]
 [assembly: System.Reflection.AssemblyTitleAttribute("pdfToExcel")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
